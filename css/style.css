@@ -205,6 +205,40 @@ main {
     }
 }
 
+/* Banner */
+.banner {
+    width: 100%;
+    display: none;
+}
+
+/* Presentation Section */
+.pres-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.pres-title {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.pres-section hr {
+    width: 20%;
+    border: 1px solid var(--header-title-color);
+}
+
+.pres-content img {
+    display: block;
+    padding: 20px 50px;
+}
+
+.pres-content p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
 /* RESPONSIVE DESKTOP */
 @media screen and (min-width: 992px) {
 
