@@ -1,41 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css" />
     <title>Giallo Booleano</title>
+
+    <!-- nerko one font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
-    <header>
-        <h1 class="title">GIALLO BOOLEANO</h1>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="header-title">GIALLO BOOLEANO</h1>
     </header>
+    <!-- /Header -->
 
+    <!-- Main -->
     <main>
-        <section>
-            <div>
-                DOLCI E DESSERTS
-            </div>
-            <div>
-                Tiramisù <span>(Dolce Tradizionale)</span>
-            </div>
-            <div>
-                <img src="img/image (10).png" alt="Youtube link">
-                <h4>In breve</h4>
-                <ul>
-                    <li>Difficoltà: <strong>Facile</strong></li>
-                    <li>Tempo: <strong>40 min</strong></li>
-                    <li>Porzione per: <strong>8 persone</strong></li>
-                    <li>Costo: <strong>contenuto</strong></li>
-                    <li><strong>Note</strong>: +2 ore di riposo in frigo</li>
-                </ul>
-            </div>
-
-
-        </section>
+        <div class="container">
+            <!-- Recipe Section -->
+            <section class="recipe-section">
+                <span class="subtitle">DOLCI E DESSERTS</span>
+                <h2 class="recipe-title">Tiramisù<span> (Dolce Tradizionale)</span></h2>
+                <div class="card">
+                    <div class="recipe-video">
+                        <img src="img/image (10).png" alt="Video Image">
+                    </div>
+                    <div class="data-list">
+                        <h4>In breve</h4>
+                        <ul>
+                            <li>Difficoltà: <strong>Facile</strong></li>
+                            <li>Tempo: <strong>40 min</strong></li>
+                            <li>Porzione per: <strong>8 persone</strong></li>
+                            <li>Costo: <strong>contenuto</strong></li>
+                            <li><strong>Note</strong>: +2 ore di riposo in frigo</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- /Recipe Section -->
+        </div>
     </main>
-</body>
-
-</html>
+     <!-- /Main -->

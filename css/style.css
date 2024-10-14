@@ -1,12 +1,86 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.title {
-    color: goldenrod;
-    max-width: 440px;
-
-    border-color: black;
+img {
+    width: 100%;
 }
+
+/* UTILITIES */
+/* Colors */
+:root {
+    --header-title-color: #FF9614;
+    --text-purple: #4E3969;
+    --footer-bg: #7C69A4;
+    --main-bg: #F6F5F3;
+}
+
+/* COMMON */
+/* Layout */
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+main {
+    background-color: var(--main-bg);
+}
+
+/* HEADER */
+.header {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.header-title {
+    font-family: "Nerko One", cursive;
+    font-size: 2.5rem;
+    color: var(--header-title-color);
+    text-shadow: 1px 1px 2px #332b23;
+}
+
+/* MAIN */
+/* Recipe Section */
+.recipe-section {
+    padding-top: 40px;
+}
+
+.recipe-section .subtitle {
+    font-family: "Helvetica Neue";
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #7f7f7f;
+}
+
+.recipe-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: var(--text-purple);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.recipe-title span {
+    display: none;
+}
+
+.recipe-section .card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-section .video-col,
+.recipe-section .caption-col {
+    width: 100%;
+}
+
+
+.caption-col {
+    padding: 20px;
+}
+
